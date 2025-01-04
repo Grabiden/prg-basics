@@ -7,13 +7,21 @@ class TaxiRide:
     def calculate_fare(self, distance):
         self.distance = distance
         self.fare = self.distance * self.rate_per_km
-
+    def print_receipt(self):
+        print(f"Distance: {self.distance} km")
+        print(f"Fare: {self.distance*self.rate_per_km} €")
+        print(f"rate: {self.rate_per_km}/km")
+        
 
 def main():
     # your program
-    ...
-    ...
-    ...
+    taxi1 = TaxiRide(2)
+    taxi2 = TaxiRide(3)
+    taxi1.rate_per_km = 2
+    taxi1.distance = 10
+    taxi2.distance = 10
+    TaxiRide.print_receipt(taxi1)
+    TaxiRide.print_receipt(taxi2)
 
 if __name__ == "__main__":
     main()
