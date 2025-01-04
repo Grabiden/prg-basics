@@ -5,6 +5,7 @@ price_list = {
    'Sneakers': 59.99,
    'Hat': 15.99
 }
+<<<<<<< HEAD
 
 sum = 0 
 for item in price_list:
@@ -28,3 +29,10 @@ print(round(sum_after_discount, 2))
 
 
 
+=======
+for ciuch,cena in price_list.items():
+    price_list[ciuch] = cena*0.9
+
+print(price_list)  
+#sigmaaaaaa  
+>>>>>>> 11cd2cebed6eda48bd3f9bc9be5b72ae7019f7cf

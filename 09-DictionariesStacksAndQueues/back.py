@@ -16,10 +16,11 @@ while True:
          break
       else:
          print('<-- Going back to a previously visited website')
-         website = ...
-   elif ... != "":
-      ...
+         
+
+   elif website != "0":
+      website = website
 
    # print name of website you are currently viewing
    print('You are currently viewing:', website)
-   print()
+   

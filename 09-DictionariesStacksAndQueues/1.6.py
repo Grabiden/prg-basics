@@ -21,7 +21,14 @@ phone_book = {
    'Sam': '555-3030'
 }
 
+<<<<<<< HEAD
 for name in phone_book:
     if name.startswith("D"):
         print(name, phone_book[name])
     
+=======
+for names,details in phone_book.items():
+    if names.startswith("D"):
+        print(f"{names},{details}")
+        
+>>>>>>> 11cd2cebed6eda48bd3f9bc9be5b72ae7019f7cf

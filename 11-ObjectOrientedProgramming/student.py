@@ -3,7 +3,11 @@ class Student():
     def __init__(self):
         self.name = ""
         self.age = 0
+<<<<<<< HEAD
         self.group = ""
+=======
+        self.height = 0
+>>>>>>> 11cd2cebed6eda48bd3f9bc9be5b72ae7019f7cf
 
 def main():
     # object creation based on the class
@@ -12,6 +16,7 @@ def main():
     student3 = Student()
     student1.name = "Dominic"
     student1.age = 19
+<<<<<<< HEAD
     student1.group = "A"
     student2.name = "Olivia"
     student2.age = 21
@@ -27,5 +32,21 @@ def main():
     print(f'{student2.name}, {student2.age} years old, group {student2.group}')
     print(f'{student3.name}, {student3.age} years old, group {student3.group}')
     
+=======
+    student1.height = 180
+    student2.name = "Olivia"
+    student2.age = 21
+    student2.height = 190
+    student3.name = "Chris"
+    student3.age = 23
+    student3.height = 174
+
+    print('LIST OF STUDENTS')
+    print('================')
+    print(f'{student1.name}, {student1.age} years old is {student1.height} cm tall')
+    print(f'{student2.name}, {student2.age} years old is {student2.height} cm tall')
+    print(f'{student3.name}, {student3.age} years old is {student3.height} cm tall')
+
+>>>>>>> 11cd2cebed6eda48bd3f9bc9be5b72ae7019f7cf
 if __name__ == "__main__":
     main()
